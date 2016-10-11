@@ -21,5 +21,6 @@ RUN apt-get -y install puppet=3.7.4-1puppetlabs1
 RUN echo "gem: --no-ri --no-rdoc" > ~/.gemrc
 RUN sudo sh -c 'echo "StrictHostKeyChecking no" >> /etc/ssh/ssh_config'
 RUN gem install librarian-puppet
+RUN gem install puppet-parse
 
 VOLUME /puppet
