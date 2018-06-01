@@ -1,0 +1,10 @@
+PCI Compliance Checklist:
+
+- [ ] Change does not move or replicate the full PAN outside of the PCI Zone
+- [ ] Impact of the change is documented (indicate if there will be no impact)
+- [ ] Change was tested in a pre-production environment when available (indicate if testing in pre-prod is not available)
+- [ ] Change does not reduce the security of the PCI zone. Examples of security reductions:
+    - [ ] Change allows unauthenticated access into PCI zone
+    - [ ] Change allows unauthorized decryption of customer card data
+    - [ ] Change allows unauthorized code or deployments into the PCI zone
+- [ ] Change complies with Remitly’s Secure Development Policies
